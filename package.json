@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/bayubagusbagaswara/notes-app-back-end-dev/issues"
   },
-  "homepage": "https://github.com/bayubagusbagaswara/notes-app-back-end-dev#readme"
+  "homepage": "https://github.com/bayubagusbagaswara/notes-app-back-end-dev#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
