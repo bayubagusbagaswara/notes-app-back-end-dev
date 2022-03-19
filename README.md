@@ -13,3 +13,4 @@
 # Teknik Migrate
 - `npm install node-pg-migrate`
 -  Pada Terminal proyek, silakan eksekusi perintah dalam membuat migration berikut: `npm run migrate create "create table notes"`
+- `npm run migrate up` untuk migrasi schema yang sudah kita buat di file migrations
