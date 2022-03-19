@@ -9,3 +9,7 @@
 - Untuk mengkases database lewat termial `psql --username developer --dbname notesapp`
 - Memasang node-postgres `npm install pg`
 - Konfigurasi environment `npm install dotenv`
+
+# Teknik Migrate
+- `npm install node-pg-migrate`
+-  Pada Terminal proyek, silakan eksekusi perintah dalam membuat migration berikut: `npm run migrate create "create table notes"`
