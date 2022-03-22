@@ -19,3 +19,5 @@
 - npm run migrate create "create table users"
 - lakukan eksekusi migration `npm run migrate up`
 - install `npm install bcrypt`
+
+- npm run migrate create "create table authentications"
