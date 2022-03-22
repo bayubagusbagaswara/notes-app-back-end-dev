@@ -17,3 +17,4 @@
 
 # Authentication
 - npm run migrate create "create table users"
+- lakukan eksekusi migration `npm run migrate up`
