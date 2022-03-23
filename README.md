@@ -19,5 +19,11 @@
 - npm run migrate create "create table users"
 - lakukan eksekusi migration `npm run migrate up`
 - install `npm install bcrypt`
-
+- `npm install @hapi/jwt`
 - npm run migrate create "create table authentications"
+- `require('crypto').randomBytes(64).toString('hex');`
+- npm run migrate create "add column owner to table notes"
+- npm run migrate create "add foreign key to owner column"
+- npm run migrate create "create collaborations table"
+
+truncate albums, songs, users, authentications, playlists, playlistsongs, playlist_song_activities, collaborations;
