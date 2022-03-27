@@ -27,3 +27,5 @@
 - npm run migrate create "create collaborations table"
 
 truncate albums, songs, users, authentications, playlists, playlistsongs, playlist_song_activities, collaborations;
+
+- npm install amqplib
