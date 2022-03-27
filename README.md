@@ -26,6 +26,7 @@
 - npm run migrate create "add foreign key to owner column"
 - npm run migrate create "create collaborations table"
 
+truncate notes, users, authentications, collaborations;
 truncate albums, songs, users, authentications, playlists, playlistsongs, playlist_song_activities, collaborations;
 
 - npm install amqplib
