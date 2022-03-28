@@ -30,3 +30,8 @@ truncate notes, users, authentications, collaborations;
 truncate albums, songs, users, authentications, playlists, playlistsongs, playlist_song_activities, collaborations;
 
 - npm install amqplib
+- npm install @hapi/inert
+
+# File Locations
+- `http://${process.env.HOST}:${process.env.PORT}/upload/images/${filename}`
+- jadi `http://localhost:5000/upload/images/1621706265086flower.jpg`
