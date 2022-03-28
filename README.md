@@ -31,7 +31,19 @@ truncate albums, songs, users, authentications, playlists, playlistsongs, playli
 
 - npm install amqplib
 - npm install @hapi/inert
+- npm install aws-sdk
+- npm install redis
 
 # File Locations
 - `http://${process.env.HOST}:${process.env.PORT}/upload/images/${filename}`
 - jadi `http://localhost:5000/upload/images/1621706265086flower.jpg`
+
+
+- memurai-cli
+- ping
+
+# Menyimpan data di Redis
+- `SET <key> <value> [EX expirationInSecond | PX expirationInMilliseconds]`
+
+- key: name
+- value: “Nama Anda”
